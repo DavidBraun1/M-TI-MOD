@@ -78,10 +78,15 @@ function [out, Q, alpha, beta, gamma] = qrotate_plus(v, u, phi)
     out = round(temp(2:4), 6);
     out(abs(out) < 1e-12) = 0;
 
-    %Winkel
-    alpha = atan2((2*(Q(3)*Q(4)+Q(1)*Q(2))),(1-2*(Q(2)^2+Q(3)^2)));
+    % %Winkel mit Korrektur
+    % alpha = atan2((2*(Q(3)*Q(4)+Q(1)*Q(2))),(1-2*(Q(2)^2+Q(3)^2)));
+    % beta = asin(2*(Q(1)*Q(3)-Q(2)*Q(4)));
+    % gamma = atan2((2*(Q(2)*Q(3)+Q(1)*Q(4))),(1-2*(Q(3)^2+Q(4)^2)));
+
+    %Winkel ohne Korrektur
+    alpha = atan((2*(Q(3)*Q(4)+Q(1)*Q(2)))/(1-2*(Q(2)^2+Q(3)^2)));
     beta = asin(2*(Q(1)*Q(3)-Q(2)*Q(4)));
-    gamma = atan2((2*(Q(2)*Q(3)+Q(1)*Q(4))),(1-2*(Q(3)^2+Q(4)^2)));
+    gamma = atan((2*(Q(2)*Q(3)+Q(1)*Q(4)))/(1-2*(Q(3)^2+Q(4)^2)));
 
     tol = 1e-12;
     alpha(abs(alpha)<tol) = 0;
@@ -143,4 +148,4 @@ phi = 180;
 fprintf(['Ergebnis Drehung des Vektors v = [%g %g %g] um %g° ' ...
     'und dem Vektor u = [%g %g %g]: [%g %g %g]\n'],v, phi, u, rotate2);
 fprintf(['Rotationsmatrix: [%g %g %g %g]\n Winkel' ...
-    ' alpha: %g°\n Winkel beta: %g°\n Winkel gamma: %g°'], Q, alpha, beta, gamma);
+    ' alpha: %g°\n Winkel beta: %g°\n Winkel gamma: %g°\n\n'], Q, alpha, beta, gamma);
