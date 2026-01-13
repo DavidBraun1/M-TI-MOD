@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:7[m[K:
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kscan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:50:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   50 |         [01;31m[KRCLCPP_INFO_THROTTLE[m[K(this->get_logger(), *this->get_clock(), 1000,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tb3_slalom_node.dir/build.make:76: CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_slalom_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

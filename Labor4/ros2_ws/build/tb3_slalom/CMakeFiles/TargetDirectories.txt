@@ -1,0 +1,10 @@
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/uninstall.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/tb3_slalom_uninstall.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/tb3_slalom_node.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/test.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/edit_cache.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/rebuild_cache.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/list_install_components.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/install.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/install/local.dir
+/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom/CMakeFiles/install/strip.dir

@@ -1,0 +1,590 @@
+[0.000000] (-) TimerEvent: {}
+[0.001114] (-) JobUnselected: {'identifier': 'tb3_control'}
+[0.001811] (-) JobUnselected: {'identifier': 'tutorial_node'}
+[0.001906] (tb3_wall) JobQueued: {'identifier': 'tb3_wall', 'dependencies': OrderedDict()}
+[0.001968] (tb3_wall) JobStarted: {'identifier': 'tb3_wall'}
+[0.040972] (tb3_wall) JobProgress: {'identifier': 'tb3_wall', 'progress': 'cmake'}
+[0.042174] (tb3_wall) Command: {'cmd': ['/usr/bin/cmake', '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/tb3_wall', '-DCMAKE_INSTALL_PREFIX=/home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall'], 'cwd': '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'SSH_CLIENT': '192.168.188.110 55593 22', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim/lib:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'OLDPWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install:/home/david/Documents/04_MOD/Labor3/ros2_test/install:/home/david/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/lib/x86_64-linux-gnu/pkgconfig:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'XILINX_VIVADO': '/tools/Xilinx/2025.1/Vivado', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/david/.local/bin:/tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/MATLAB/R2025b/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node:/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.188.110 55593 192.168.188.65 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/home/david/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node:/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'XILINX_VITIS': '/tools/Xilinx/2025.1/Vitis'}), 'shell': False}
+[0.098917] (-) TimerEvent: {}
+[0.200768] (-) TimerEvent: {}
+[0.301795] (-) TimerEvent: {}
+[0.333171] (tb3_wall) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.402180] (-) TimerEvent: {}
+[0.503784] (-) TimerEvent: {}
+[0.605890] (-) TimerEvent: {}
+[0.623617] (tb3_wall) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.706493] (-) TimerEvent: {}
+[0.711269] (tb3_wall) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.806913] (-) TimerEvent: {}
+[0.908272] (-) TimerEvent: {}
+[1.009908] (-) TimerEvent: {}
+[1.111159] (-) TimerEvent: {}
+[1.139125] (tb3_wall) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.188740] (tb3_wall) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.190519] (tb3_wall) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.192255] (tb3_wall) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.212032] (-) TimerEvent: {}
+[1.233671] (tb3_wall) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.312127] (-) TimerEvent: {}
+[1.412727] (-) TimerEvent: {}
+[1.513728] (-) TimerEvent: {}
+[1.614230] (-) TimerEvent: {}
+[1.714829] (-) TimerEvent: {}
+[1.728646] (tb3_wall) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.754846] (tb3_wall) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.755153] (tb3_wall) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.755836] (tb3_wall) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.786857] (tb3_wall) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.814949] (-) TimerEvent: {}
+[1.915523] (-) TimerEvent: {}
+[2.016486] (-) TimerEvent: {}
+[2.118192] (-) TimerEvent: {}
+[2.220142] (-) TimerEvent: {}
+[2.322120] (-) TimerEvent: {}
+[2.423679] (-) TimerEvent: {}
+[2.524204] (-) TimerEvent: {}
+[2.593801] (tb3_wall) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.624461] (-) TimerEvent: {}
+[2.725145] (-) TimerEvent: {}
+[2.825789] (-) TimerEvent: {}
+[2.927115] (-) TimerEvent: {}
+[3.028595] (-) TimerEvent: {}
+[3.130070] (-) TimerEvent: {}
+[3.231635] (-) TimerEvent: {}
+[3.280250] (tb3_wall) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.332858] (-) TimerEvent: {}
+[3.434593] (-) TimerEvent: {}
+[3.535689] (-) TimerEvent: {}
+[3.606483] (tb3_wall) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.635955] (-) TimerEvent: {}
+[3.695127] (tb3_wall) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.736598] (-) TimerEvent: {}
+[3.798409] (tb3_wall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.837743] (-) TimerEvent: {}
+[3.927585] (tb3_wall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.938378] (-) TimerEvent: {}
+[4.039266] (-) TimerEvent: {}
+[4.139857] (-) TimerEvent: {}
+[4.240367] (-) TimerEvent: {}
+[4.340973] (-) TimerEvent: {}
+[4.420258] (tb3_wall) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.441170] (-) TimerEvent: {}
+[4.445221] (tb3_wall) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.541337] (-) TimerEvent: {}
+[4.642160] (-) TimerEvent: {}
+[4.743876] (-) TimerEvent: {}
+[4.845134] (-) TimerEvent: {}
+[4.946580] (-) TimerEvent: {}
+[4.967342] (tb3_wall) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.046937] (-) TimerEvent: {}
+[5.076828] (tb3_wall) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.147050] (-) TimerEvent: {}
+[5.188650] (tb3_wall) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.247246] (-) TimerEvent: {}
+[5.347997] (-) TimerEvent: {}
+[5.448934] (-) TimerEvent: {}
+[5.549883] (-) TimerEvent: {}
+[5.622685] (tb3_wall) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[5.650418] (-) TimerEvent: {}
+[5.752117] (-) TimerEvent: {}
+[5.775022] (tb3_wall) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[5.852522] (-) TimerEvent: {}
+[5.930533] (tb3_wall) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.953357] (-) TimerEvent: {}
+[6.054813] (-) TimerEvent: {}
+[6.156920] (-) TimerEvent: {}
+[6.258615] (-) TimerEvent: {}
+[6.359935] (-) TimerEvent: {}
+[6.460328] (-) TimerEvent: {}
+[6.525104] (tb3_wall) StdoutLine: {'line': b'-- Configuring done (6.4s)\n'}
+[6.560485] (-) TimerEvent: {}
+[6.582617] (tb3_wall) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.595076] (tb3_wall) StdoutLine: {'line': b'-- Build files have been written to: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall\n'}
+[6.660616] (-) TimerEvent: {}
+[6.661724] (tb3_wall) CommandEnded: {'returncode': 0}
+[6.662694] (tb3_wall) JobProgress: {'identifier': 'tb3_wall', 'progress': 'build'}
+[6.663648] (tb3_wall) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', '--', '-j12', '-l12'], 'cwd': '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'SSH_CLIENT': '192.168.188.110 55593 22', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim/lib:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'OLDPWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install:/home/david/Documents/04_MOD/Labor3/ros2_test/install:/home/david/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/lib/x86_64-linux-gnu/pkgconfig:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'XILINX_VIVADO': '/tools/Xilinx/2025.1/Vivado', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/david/.local/bin:/tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/MATLAB/R2025b/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node:/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.188.110 55593 192.168.188.65 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/home/david/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node:/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'XILINX_VITIS': '/tools/Xilinx/2025.1/Vitis'}), 'shell': False}
+[6.761717] (-) TimerEvent: {}
+[6.863164] (-) TimerEvent: {}
+[6.939384] (tb3_wall) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb3_wall_node.dir/src/tb3_wall.cpp.o\x1b[0m\n'}
+[6.963611] (-) TimerEvent: {}
+[7.065155] (-) TimerEvent: {}
+[7.167024] (-) TimerEvent: {}
+[7.268595] (-) TimerEvent: {}
+[7.370475] (-) TimerEvent: {}
+[7.471353] (-) TimerEvent: {}
+[7.571763] (-) TimerEvent: {}
+[7.672410] (-) TimerEvent: {}
+[7.773225] (-) TimerEvent: {}
+[7.875111] (-) TimerEvent: {}
+[7.978465] (-) TimerEvent: {}
+[8.079967] (-) TimerEvent: {}
+[8.181647] (-) TimerEvent: {}
+[8.283075] (-) TimerEvent: {}
+[8.385695] (-) TimerEvent: {}
+[8.487787] (-) TimerEvent: {}
+[8.589243] (-) TimerEvent: {}
+[8.690921] (-) TimerEvent: {}
+[8.793006] (-) TimerEvent: {}
+[8.895136] (-) TimerEvent: {}
+[8.997005] (-) TimerEvent: {}
+[9.098201] (-) TimerEvent: {}
+[9.198682] (-) TimerEvent: {}
+[9.299297] (-) TimerEvent: {}
+[9.399869] (-) TimerEvent: {}
+[9.500779] (-) TimerEvent: {}
+[9.601504] (-) TimerEvent: {}
+[9.701948] (-) TimerEvent: {}
+[9.802456] (-) TimerEvent: {}
+[9.903800] (-) TimerEvent: {}
+[10.004890] (-) TimerEvent: {}
+[10.106929] (-) TimerEvent: {}
+[10.208535] (-) TimerEvent: {}
+[10.309873] (-) TimerEvent: {}
+[10.410502] (-) TimerEvent: {}
+[10.511175] (-) TimerEvent: {}
+[10.612831] (-) TimerEvent: {}
+[10.713428] (-) TimerEvent: {}
+[10.814502] (-) TimerEvent: {}
+[10.916386] (-) TimerEvent: {}
+[11.017931] (-) TimerEvent: {}
+[11.120173] (-) TimerEvent: {}
+[11.221779] (-) TimerEvent: {}
+[11.323481] (-) TimerEvent: {}
+[11.424972] (-) TimerEvent: {}
+[11.525509] (-) TimerEvent: {}
+[11.626038] (-) TimerEvent: {}
+[11.726682] (-) TimerEvent: {}
+[11.827306] (-) TimerEvent: {}
+[11.928042] (-) TimerEvent: {}
+[12.028906] (-) TimerEvent: {}
+[12.129956] (-) TimerEvent: {}
+[12.232516] (-) TimerEvent: {}
+[12.334032] (-) TimerEvent: {}
+[12.436351] (-) TimerEvent: {}
+[12.538051] (-) TimerEvent: {}
+[12.639559] (-) TimerEvent: {}
+[12.740801] (-) TimerEvent: {}
+[12.841549] (-) TimerEvent: {}
+[12.942727] (-) TimerEvent: {}
+[13.043413] (-) TimerEvent: {}
+[13.143905] (-) TimerEvent: {}
+[13.244698] (-) TimerEvent: {}
+[13.345394] (-) TimerEvent: {}
+[13.446106] (-) TimerEvent: {}
+[13.546951] (-) TimerEvent: {}
+[13.649080] (-) TimerEvent: {}
+[13.751493] (-) TimerEvent: {}
+[13.853368] (-) TimerEvent: {}
+[13.954970] (-) TimerEvent: {}
+[14.056638] (-) TimerEvent: {}
+[14.160724] (-) TimerEvent: {}
+[14.262248] (-) TimerEvent: {}
+[14.363569] (-) TimerEvent: {}
+[14.464876] (-) TimerEvent: {}
+[14.566184] (-) TimerEvent: {}
+[14.666733] (-) TimerEvent: {}
+[14.767431] (-) TimerEvent: {}
+[14.868172] (-) TimerEvent: {}
+[14.968903] (-) TimerEvent: {}
+[15.069559] (-) TimerEvent: {}
+[15.170807] (-) TimerEvent: {}
+[15.272227] (-) TimerEvent: {}
+[15.373733] (-) TimerEvent: {}
+[15.477995] (-) TimerEvent: {}
+[15.579970] (-) TimerEvent: {}
+[15.681901] (-) TimerEvent: {}
+[15.783248] (-) TimerEvent: {}
+[15.883801] (-) TimerEvent: {}
+[15.985575] (-) TimerEvent: {}
+[16.086658] (-) TimerEvent: {}
+[16.187803] (-) TimerEvent: {}
+[16.289764] (-) TimerEvent: {}
+[16.391835] (-) TimerEvent: {}
+[16.493596] (-) TimerEvent: {}
+[16.595648] (-) TimerEvent: {}
+[16.697429] (-) TimerEvent: {}
+[16.800030] (-) TimerEvent: {}
+[16.901772] (-) TimerEvent: {}
+[17.003777] (-) TimerEvent: {}
+[17.105151] (-) TimerEvent: {}
+[17.206761] (-) TimerEvent: {}
+[17.308164] (-) TimerEvent: {}
+[17.410734] (-) TimerEvent: {}
+[17.511999] (-) TimerEvent: {}
+[17.613191] (-) TimerEvent: {}
+[17.713789] (-) TimerEvent: {}
+[17.814307] (-) TimerEvent: {}
+[17.914762] (-) TimerEvent: {}
+[18.015343] (-) TimerEvent: {}
+[18.116522] (-) TimerEvent: {}
+[18.218723] (-) TimerEvent: {}
+[18.320629] (-) TimerEvent: {}
+[18.422997] (-) TimerEvent: {}
+[18.524271] (-) TimerEvent: {}
+[18.625644] (-) TimerEvent: {}
+[18.727110] (-) TimerEvent: {}
+[18.828489] (-) TimerEvent: {}
+[18.929144] (-) TimerEvent: {}
+[19.029578] (-) TimerEvent: {}
+[19.130090] (-) TimerEvent: {}
+[19.230693] (-) TimerEvent: {}
+[19.331584] (-) TimerEvent: {}
+[19.432203] (-) TimerEvent: {}
+[19.532997] (-) TimerEvent: {}
+[19.633871] (-) TimerEvent: {}
+[19.735235] (-) TimerEvent: {}
+[19.837153] (-) TimerEvent: {}
+[19.938667] (-) TimerEvent: {}
+[20.040423] (-) TimerEvent: {}
+[20.141936] (-) TimerEvent: {}
+[20.243423] (-) TimerEvent: {}
+[20.343914] (-) TimerEvent: {}
+[20.444685] (-) TimerEvent: {}
+[20.545205] (-) TimerEvent: {}
+[20.645872] (-) TimerEvent: {}
+[20.747524] (-) TimerEvent: {}
+[20.848924] (-) TimerEvent: {}
+[20.950443] (-) TimerEvent: {}
+[21.051891] (-) TimerEvent: {}
+[21.152451] (-) TimerEvent: {}
+[21.252977] (-) TimerEvent: {}
+[21.355513] (-) TimerEvent: {}
+[21.456486] (-) TimerEvent: {}
+[21.557760] (-) TimerEvent: {}
+[21.658351] (-) TimerEvent: {}
+[21.758854] (-) TimerEvent: {}
+[21.859426] (-) TimerEvent: {}
+[21.960388] (-) TimerEvent: {}
+[22.061471] (-) TimerEvent: {}
+[22.163490] (-) TimerEvent: {}
+[22.264794] (-) TimerEvent: {}
+[22.365882] (-) TimerEvent: {}
+[22.467251] (-) TimerEvent: {}
+[22.568620] (-) TimerEvent: {}
+[22.669813] (-) TimerEvent: {}
+[22.770338] (-) TimerEvent: {}
+[22.871169] (-) TimerEvent: {}
+[22.971755] (-) TimerEvent: {}
+[23.072537] (-) TimerEvent: {}
+[23.174063] (-) TimerEvent: {}
+[23.275638] (-) TimerEvent: {}
+[23.377192] (-) TimerEvent: {}
+[23.478634] (-) TimerEvent: {}
+[23.580068] (-) TimerEvent: {}
+[23.681446] (-) TimerEvent: {}
+[23.782991] (-) TimerEvent: {}
+[23.885685] (-) TimerEvent: {}
+[23.987618] (-) TimerEvent: {}
+[24.088725] (-) TimerEvent: {}
+[24.189181] (-) TimerEvent: {}
+[24.289844] (-) TimerEvent: {}
+[24.390655] (-) TimerEvent: {}
+[24.494420] (-) TimerEvent: {}
+[24.595763] (-) TimerEvent: {}
+[24.697116] (-) TimerEvent: {}
+[24.798809] (-) TimerEvent: {}
+[24.900408] (-) TimerEvent: {}
+[25.004383] (-) TimerEvent: {}
+[25.106723] (-) TimerEvent: {}
+[25.208723] (-) TimerEvent: {}
+[25.309906] (-) TimerEvent: {}
+[25.410461] (-) TimerEvent: {}
+[25.511154] (-) TimerEvent: {}
+[25.612340] (-) TimerEvent: {}
+[25.713778] (-) TimerEvent: {}
+[25.814920] (-) TimerEvent: {}
+[25.916623] (-) TimerEvent: {}
+[26.018084] (-) TimerEvent: {}
+[26.119703] (-) TimerEvent: {}
+[26.221157] (-) TimerEvent: {}
+[26.322892] (-) TimerEvent: {}
+[26.424480] (-) TimerEvent: {}
+[26.525947] (-) TimerEvent: {}
+[26.627335] (-) TimerEvent: {}
+[26.727735] (-) TimerEvent: {}
+[26.829010] (-) TimerEvent: {}
+[26.930564] (-) TimerEvent: {}
+[27.031796] (-) TimerEvent: {}
+[27.132854] (-) TimerEvent: {}
+[27.233485] (-) TimerEvent: {}
+[27.333937] (-) TimerEvent: {}
+[27.434552] (-) TimerEvent: {}
+[27.535210] (-) TimerEvent: {}
+[27.636345] (-) TimerEvent: {}
+[27.738724] (-) TimerEvent: {}
+[27.840928] (-) TimerEvent: {}
+[27.943003] (-) TimerEvent: {}
+[28.044694] (-) TimerEvent: {}
+[28.146470] (-) TimerEvent: {}
+[28.248625] (-) TimerEvent: {}
+[28.351405] (-) TimerEvent: {}
+[28.453002] (-) TimerEvent: {}
+[28.554415] (-) TimerEvent: {}
+[28.654991] (-) TimerEvent: {}
+[28.755887] (-) TimerEvent: {}
+[28.857907] (-) TimerEvent: {}
+[28.960472] (-) TimerEvent: {}
+[29.061854] (-) TimerEvent: {}
+[29.163230] (-) TimerEvent: {}
+[29.264780] (-) TimerEvent: {}
+[29.366542] (-) TimerEvent: {}
+[29.468176] (-) TimerEvent: {}
+[29.568675] (-) TimerEvent: {}
+[29.669116] (-) TimerEvent: {}
+[29.769665] (-) TimerEvent: {}
+[29.870268] (-) TimerEvent: {}
+[29.971210] (-) TimerEvent: {}
+[30.072830] (-) TimerEvent: {}
+[30.173638] (-) TimerEvent: {}
+[30.274612] (-) TimerEvent: {}
+[30.375951] (-) TimerEvent: {}
+[30.477362] (-) TimerEvent: {}
+[30.581575] (-) TimerEvent: {}
+[30.682847] (-) TimerEvent: {}
+[30.783329] (-) TimerEvent: {}
+[30.883920] (-) TimerEvent: {}
+[30.984576] (-) TimerEvent: {}
+[31.085234] (-) TimerEvent: {}
+[31.185796] (-) TimerEvent: {}
+[31.287158] (-) TimerEvent: {}
+[31.388622] (-) TimerEvent: {}
+[31.490093] (-) TimerEvent: {}
+[31.591793] (-) TimerEvent: {}
+[31.693543] (-) TimerEvent: {}
+[31.795010] (-) TimerEvent: {}
+[31.896569] (-) TimerEvent: {}
+[31.997962] (-) TimerEvent: {}
+[32.100217] (-) TimerEvent: {}
+[32.201664] (-) TimerEvent: {}
+[32.303367] (-) TimerEvent: {}
+[32.404856] (-) TimerEvent: {}
+[32.506066] (-) TimerEvent: {}
+[32.606694] (-) TimerEvent: {}
+[32.707210] (-) TimerEvent: {}
+[32.807861] (-) TimerEvent: {}
+[32.908394] (-) TimerEvent: {}
+[33.009112] (-) TimerEvent: {}
+[33.110776] (-) TimerEvent: {}
+[33.212268] (-) TimerEvent: {}
+[33.314254] (-) TimerEvent: {}
+[33.415899] (-) TimerEvent: {}
+[33.517603] (-) TimerEvent: {}
+[33.618920] (-) TimerEvent: {}
+[33.720804] (-) TimerEvent: {}
+[33.823738] (-) TimerEvent: {}
+[33.925105] (-) TimerEvent: {}
+[34.025716] (-) TimerEvent: {}
+[34.126384] (-) TimerEvent: {}
+[34.227058] (-) TimerEvent: {}
+[34.328183] (-) TimerEvent: {}
+[34.429628] (-) TimerEvent: {}
+[34.530602] (-) TimerEvent: {}
+[34.632005] (-) TimerEvent: {}
+[34.733750] (-) TimerEvent: {}
+[34.835800] (-) TimerEvent: {}
+[34.937404] (-) TimerEvent: {}
+[35.037803] (-) TimerEvent: {}
+[35.138317] (-) TimerEvent: {}
+[35.238974] (-) TimerEvent: {}
+[35.340009] (-) TimerEvent: {}
+[35.442657] (-) TimerEvent: {}
+[35.544483] (-) TimerEvent: {}
+[35.645993] (-) TimerEvent: {}
+[35.747464] (-) TimerEvent: {}
+[35.850185] (-) TimerEvent: {}
+[35.952995] (-) TimerEvent: {}
+[36.055139] (-) TimerEvent: {}
+[36.156563] (-) TimerEvent: {}
+[36.257873] (-) TimerEvent: {}
+[36.358939] (-) TimerEvent: {}
+[36.459595] (-) TimerEvent: {}
+[36.560212] (-) TimerEvent: {}
+[36.660902] (-) TimerEvent: {}
+[36.762886] (-) TimerEvent: {}
+[36.864595] (-) TimerEvent: {}
+[36.965841] (-) TimerEvent: {}
+[37.066349] (-) TimerEvent: {}
+[37.166829] (-) TimerEvent: {}
+[37.267456] (-) TimerEvent: {}
+[37.368504] (-) TimerEvent: {}
+[37.469248] (-) TimerEvent: {}
+[37.570265] (-) TimerEvent: {}
+[37.671860] (-) TimerEvent: {}
+[37.773016] (-) TimerEvent: {}
+[37.874910] (-) TimerEvent: {}
+[37.976889] (-) TimerEvent: {}
+[38.077417] (-) TimerEvent: {}
+[38.177899] (-) TimerEvent: {}
+[38.279470] (-) TimerEvent: {}
+[38.380106] (-) TimerEvent: {}
+[38.480790] (-) TimerEvent: {}
+[38.581296] (-) TimerEvent: {}
+[38.681887] (-) TimerEvent: {}
+[38.782442] (-) TimerEvent: {}
+[38.883542] (-) TimerEvent: {}
+[38.984521] (-) TimerEvent: {}
+[39.085502] (-) TimerEvent: {}
+[39.186139] (-) TimerEvent: {}
+[39.287109] (-) TimerEvent: {}
+[39.388135] (-) TimerEvent: {}
+[39.489434] (-) TimerEvent: {}
+[39.591188] (-) TimerEvent: {}
+[39.692837] (-) TimerEvent: {}
+[39.793901] (-) TimerEvent: {}
+[39.894481] (-) TimerEvent: {}
+[39.995061] (-) TimerEvent: {}
+[40.095930] (-) TimerEvent: {}
+[40.197582] (-) TimerEvent: {}
+[40.298247] (-) TimerEvent: {}
+[40.399019] (-) TimerEvent: {}
+[40.499666] (-) TimerEvent: {}
+[40.600599] (-) TimerEvent: {}
+[40.701111] (-) TimerEvent: {}
+[40.801742] (-) TimerEvent: {}
+[40.902608] (-) TimerEvent: {}
+[41.006402] (-) TimerEvent: {}
+[41.107603] (-) TimerEvent: {}
+[41.209394] (-) TimerEvent: {}
+[41.310729] (-) TimerEvent: {}
+[41.413423] (-) TimerEvent: {}
+[41.514962] (-) TimerEvent: {}
+[41.616680] (-) TimerEvent: {}
+[41.718068] (-) TimerEvent: {}
+[41.820499] (-) TimerEvent: {}
+[41.921914] (-) TimerEvent: {}
+[42.022596] (-) TimerEvent: {}
+[42.123531] (-) TimerEvent: {}
+[42.224974] (-) TimerEvent: {}
+[42.326579] (-) TimerEvent: {}
+[42.427973] (-) TimerEvent: {}
+[42.529023] (-) TimerEvent: {}
+[42.629522] (-) TimerEvent: {}
+[42.730014] (-) TimerEvent: {}
+[42.830629] (-) TimerEvent: {}
+[42.931299] (-) TimerEvent: {}
+[43.031966] (-) TimerEvent: {}
+[43.132812] (-) TimerEvent: {}
+[43.234817] (-) TimerEvent: {}
+[43.337177] (-) TimerEvent: {}
+[43.439880] (-) TimerEvent: {}
+[43.541594] (-) TimerEvent: {}
+[43.643162] (-) TimerEvent: {}
+[43.746360] (-) TimerEvent: {}
+[43.849629] (-) TimerEvent: {}
+[43.951500] (-) TimerEvent: {}
+[44.052766] (-) TimerEvent: {}
+[44.153216] (-) TimerEvent: {}
+[44.254864] (-) TimerEvent: {}
+[44.355252] (-) TimerEvent: {}
+[44.455786] (-) TimerEvent: {}
+[44.556447] (-) TimerEvent: {}
+[44.657062] (-) TimerEvent: {}
+[44.757594] (-) TimerEvent: {}
+[44.858215] (-) TimerEvent: {}
+[44.958815] (-) TimerEvent: {}
+[45.059386] (-) TimerEvent: {}
+[45.160115] (-) TimerEvent: {}
+[45.261500] (-) TimerEvent: {}
+[45.363892] (-) TimerEvent: {}
+[45.465186] (-) TimerEvent: {}
+[45.566638] (-) TimerEvent: {}
+[45.668130] (-) TimerEvent: {}
+[45.770158] (-) TimerEvent: {}
+[45.871405] (-) TimerEvent: {}
+[45.971868] (-) TimerEvent: {}
+[46.072334] (-) TimerEvent: {}
+[46.172809] (-) TimerEvent: {}
+[46.273229] (-) TimerEvent: {}
+[46.378636] (-) TimerEvent: {}
+[46.479195] (-) TimerEvent: {}
+[46.580071] (-) TimerEvent: {}
+[46.681343] (-) TimerEvent: {}
+[46.783250] (-) TimerEvent: {}
+[46.884685] (-) TimerEvent: {}
+[46.985747] (-) TimerEvent: {}
+[47.086585] (-) TimerEvent: {}
+[47.187548] (-) TimerEvent: {}
+[47.289113] (-) TimerEvent: {}
+[47.390752] (-) TimerEvent: {}
+[47.492848] (-) TimerEvent: {}
+[47.594178] (-) TimerEvent: {}
+[47.696794] (-) TimerEvent: {}
+[47.799270] (-) TimerEvent: {}
+[47.900832] (-) TimerEvent: {}
+[48.002227] (-) TimerEvent: {}
+[48.103689] (-) TimerEvent: {}
+[48.205166] (-) TimerEvent: {}
+[48.306648] (-) TimerEvent: {}
+[48.409422] (-) TimerEvent: {}
+[48.510811] (-) TimerEvent: {}
+[48.612532] (-) TimerEvent: {}
+[48.714063] (-) TimerEvent: {}
+[48.816397] (-) TimerEvent: {}
+[48.918056] (-) TimerEvent: {}
+[49.019406] (-) TimerEvent: {}
+[49.119883] (-) TimerEvent: {}
+[49.220364] (-) TimerEvent: {}
+[49.320886] (-) TimerEvent: {}
+[49.421633] (-) TimerEvent: {}
+[49.522796] (-) TimerEvent: {}
+[49.624993] (-) TimerEvent: {}
+[49.726508] (-) TimerEvent: {}
+[49.827923] (-) TimerEvent: {}
+[49.929640] (-) TimerEvent: {}
+[50.031133] (-) TimerEvent: {}
+[50.132995] (-) TimerEvent: {}
+[50.209178] (tb3_wall) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tb3_wall_node\x1b[0m\n'}
+[50.233470] (-) TimerEvent: {}
+[50.335436] (-) TimerEvent: {}
+[50.437339] (-) TimerEvent: {}
+[50.538826] (-) TimerEvent: {}
+[50.641702] (-) TimerEvent: {}
+[50.743112] (-) TimerEvent: {}
+[50.844501] (-) TimerEvent: {}
+[50.945653] (-) TimerEvent: {}
+[51.046360] (-) TimerEvent: {}
+[51.147421] (-) TimerEvent: {}
+[51.248391] (-) TimerEvent: {}
+[51.349758] (-) TimerEvent: {}
+[51.450336] (-) TimerEvent: {}
+[51.551032] (-) TimerEvent: {}
+[51.652565] (-) TimerEvent: {}
+[51.754054] (-) TimerEvent: {}
+[51.855541] (-) TimerEvent: {}
+[51.956299] (-) TimerEvent: {}
+[52.056746] (-) TimerEvent: {}
+[52.157309] (-) TimerEvent: {}
+[52.257957] (-) TimerEvent: {}
+[52.358678] (-) TimerEvent: {}
+[52.459958] (-) TimerEvent: {}
+[52.561223] (-) TimerEvent: {}
+[52.663010] (-) TimerEvent: {}
+[52.680014] (tb3_wall) StdoutLine: {'line': b'[100%] Built target tb3_wall_node\n'}
+[52.743746] (tb3_wall) CommandEnded: {'returncode': 0}
+[52.744963] (tb3_wall) JobProgress: {'identifier': 'tb3_wall', 'progress': 'install'}
+[52.763444] (-) TimerEvent: {}
+[52.804930] (tb3_wall) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall'], 'cwd': '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'SSH_CLIENT': '192.168.188.110 55593 22', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim/lib:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'OLDPWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install:/home/david/Documents/04_MOD/Labor3/ros2_test/install:/home/david/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/lib/x86_64-linux-gnu/pkgconfig:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'XILINX_VIVADO': '/tools/Xilinx/2025.1/Vivado', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/david/.local/bin:/tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/MATLAB/R2025b/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node:/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.188.110 55593 192.168.188.65 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/home/david/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node:/home/david/Documents/04_MOD/Labor3/ros2_test/install/turtlesim:/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_control:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'XILINX_VITIS': '/tools/Xilinx/2025.1/Vitis'}), 'shell': False}
+[52.845344] (tb3_wall) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[52.846223] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/lib/tb3_wall/tb3_wall_node\n'}
+[52.863738] (-) TimerEvent: {}
+[52.880898] (tb3_wall) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/lib/tb3_wall/tb3_wall_node" to ""\n'}
+[52.881323] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/ament_index/resource_index/package_run_dependencies/tb3_wall\n'}
+[52.881790] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/ament_index/resource_index/parent_prefix_path/tb3_wall\n'}
+[52.882400] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/ament_prefix_path.sh\n'}
+[52.882699] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/ament_prefix_path.dsv\n'}
+[52.882955] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/path.sh\n'}
+[52.883224] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/path.dsv\n'}
+[52.883534] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.bash\n'}
+[52.883879] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.sh\n'}
+[52.884175] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.zsh\n'}
+[52.884496] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.dsv\n'}
+[52.885212] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/package.dsv\n'}
+[52.885438] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/ament_index/resource_index/packages/tb3_wall\n'}
+[52.885588] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/cmake/tb3_wallConfig.cmake\n'}
+[52.885793] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/cmake/tb3_wallConfig-version.cmake\n'}
+[52.886081] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/package.xml\n'}
+[52.893367] (tb3_wall) CommandEnded: {'returncode': 0}
+[52.959576] (tb3_wall) JobEnded: {'identifier': 'tb3_wall', 'rc': 0}
+[52.966428] (-) TimerEvent: {}
+[52.967182] (-) EventReactorShutdown: {}

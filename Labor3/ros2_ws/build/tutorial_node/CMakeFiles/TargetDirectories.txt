@@ -1,0 +1,10 @@
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/uninstall.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/tutorial_node_uninstall.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/my_node.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/test.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/edit_cache.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/rebuild_cache.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/list_install_components.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/install.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/install/local.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tutorial_node/CMakeFiles/install/strip.dir

@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000236] (-) JobUnselected: {'identifier': 'tb3_control'}
+[0.000285] (-) JobUnselected: {'identifier': 'tutorial_node'}
+[0.000318] (tb3_wall) JobQueued: {'identifier': 'tb3_wall', 'dependencies': OrderedDict()}
+[0.000348] (tb3_wall) JobStarted: {'identifier': 'tb3_wall'}
+[0.013815] (tb3_wall) JobProgress: {'identifier': 'tb3_wall', 'progress': 'cmake'}
+[0.014486] (tb3_wall) JobProgress: {'identifier': 'tb3_wall', 'progress': 'build'}
+[0.015077] (tb3_wall) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_wall', '--', '-j12', '-l12'], 'cwd': '/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_wall', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'OLDPWD': '/home/david/Documents/04_MOD/Labor3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '2119', 'SYSTEMD_EXEC_PID': '2420', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install:/home/david/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '8:16838', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XILINX_VIVADO': '/tools/Xilinx/2025.1/Vivado', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/david/.local/bin:/tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/share/gnome-shell/extensions/ddterm@amezin.github.com/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2025b/bin', 'SESSION_MANAGER': 'local/david-desktop:@/tmp/.ICE-unix/2370,unix/david-desktop:/tmp/.ICE-unix/2370', 'INVOCATION_ID': 'ed8d8d5b993e4d0288af89bb92e448cb', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EVHVH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_wall', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/david/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/david/turtlebot3_ws/build/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'XILINX_VITIS': '/tools/Xilinx/2025.1/Vitis'}), 'shell': False}
+[0.098855] (-) TimerEvent: {}
+[0.114802] (tb3_wall) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb3_wall_node.dir/src/tb3_wall.cpp.o\x1b[0m\n'}
+[0.198974] (-) TimerEvent: {}
+[0.299276] (-) TimerEvent: {}
+[0.399602] (-) TimerEvent: {}
+[0.499959] (-) TimerEvent: {}
+[0.600341] (-) TimerEvent: {}
+[0.700682] (-) TimerEvent: {}
+[0.801100] (-) TimerEvent: {}
+[0.901519] (-) TimerEvent: {}
+[1.001887] (-) TimerEvent: {}
+[1.102375] (-) TimerEvent: {}
+[1.202767] (-) TimerEvent: {}
+[1.303132] (-) TimerEvent: {}
+[1.403447] (-) TimerEvent: {}
+[1.503781] (-) TimerEvent: {}
+[1.604270] (-) TimerEvent: {}
+[1.704648] (-) TimerEvent: {}
+[1.805113] (-) TimerEvent: {}
+[1.905502] (-) TimerEvent: {}
+[2.005883] (-) TimerEvent: {}
+[2.106333] (-) TimerEvent: {}
+[2.206763] (-) TimerEvent: {}
+[2.307100] (-) TimerEvent: {}
+[2.407403] (-) TimerEvent: {}
+[2.507725] (-) TimerEvent: {}
+[2.608103] (-) TimerEvent: {}
+[2.708467] (-) TimerEvent: {}
+[2.808808] (-) TimerEvent: {}
+[2.909169] (-) TimerEvent: {}
+[3.009589] (-) TimerEvent: {}
+[3.109860] (-) TimerEvent: {}
+[3.210407] (-) TimerEvent: {}
+[3.310728] (-) TimerEvent: {}
+[3.411054] (-) TimerEvent: {}
+[3.511361] (-) TimerEvent: {}
+[3.611661] (-) TimerEvent: {}
+[3.711968] (-) TimerEvent: {}
+[3.812299] (-) TimerEvent: {}
+[3.912588] (-) TimerEvent: {}
+[4.012882] (-) TimerEvent: {}
+[4.113235] (-) TimerEvent: {}
+[4.213605] (-) TimerEvent: {}
+[4.314028] (-) TimerEvent: {}
+[4.414332] (-) TimerEvent: {}
+[4.514676] (-) TimerEvent: {}
+[4.615084] (-) TimerEvent: {}
+[4.715391] (-) TimerEvent: {}
+[4.815772] (-) TimerEvent: {}
+[4.916178] (-) TimerEvent: {}
+[5.016572] (-) TimerEvent: {}
+[5.116907] (-) TimerEvent: {}
+[5.217423] (-) TimerEvent: {}
+[5.317824] (-) TimerEvent: {}
+[5.418221] (-) TimerEvent: {}
+[5.518668] (-) TimerEvent: {}
+[5.619152] (-) TimerEvent: {}
+[5.719563] (-) TimerEvent: {}
+[5.819974] (-) TimerEvent: {}
+[5.920407] (-) TimerEvent: {}
+[6.020737] (-) TimerEvent: {}
+[6.121051] (-) TimerEvent: {}
+[6.221406] (-) TimerEvent: {}
+[6.321687] (-) TimerEvent: {}
+[6.421985] (-) TimerEvent: {}
+[6.522478] (-) TimerEvent: {}
+[6.622935] (-) TimerEvent: {}
+[6.723388] (-) TimerEvent: {}
+[6.823941] (-) TimerEvent: {}
+[6.924261] (-) TimerEvent: {}
+[7.024594] (-) TimerEvent: {}
+[7.125044] (-) TimerEvent: {}
+[7.225448] (-) TimerEvent: {}
+[7.325811] (-) TimerEvent: {}
+[7.426141] (-) TimerEvent: {}
+[7.526575] (-) TimerEvent: {}
+[7.627036] (-) TimerEvent: {}
+[7.727618] (-) TimerEvent: {}
+[7.827996] (-) TimerEvent: {}
+[7.928487] (-) TimerEvent: {}
+[8.028834] (-) TimerEvent: {}
+[8.129155] (-) TimerEvent: {}
+[8.229476] (-) TimerEvent: {}
+[8.329802] (-) TimerEvent: {}
+[8.430100] (-) TimerEvent: {}
+[8.530464] (-) TimerEvent: {}
+[8.630909] (-) TimerEvent: {}
+[8.731256] (-) TimerEvent: {}
+[8.831577] (-) TimerEvent: {}
+[8.931895] (-) TimerEvent: {}
+[9.032190] (-) TimerEvent: {}
+[9.132538] (-) TimerEvent: {}
+[9.232896] (-) TimerEvent: {}
+[9.333230] (-) TimerEvent: {}
+[9.433559] (-) TimerEvent: {}
+[9.534003] (-) TimerEvent: {}
+[9.634582] (-) TimerEvent: {}
+[9.735015] (-) TimerEvent: {}
+[9.835363] (-) TimerEvent: {}
+[9.935725] (-) TimerEvent: {}
+[10.036154] (-) TimerEvent: {}
+[10.136576] (-) TimerEvent: {}
+[10.236872] (-) TimerEvent: {}
+[10.337247] (-) TimerEvent: {}
+[10.437660] (-) TimerEvent: {}
+[10.538023] (-) TimerEvent: {}
+[10.638360] (-) TimerEvent: {}
+[10.738678] (-) TimerEvent: {}
+[10.839051] (-) TimerEvent: {}
+[10.939421] (-) TimerEvent: {}
+[11.039739] (-) TimerEvent: {}
+[11.140297] (-) TimerEvent: {}
+[11.240858] (-) TimerEvent: {}
+[11.341315] (-) TimerEvent: {}
+[11.441892] (-) TimerEvent: {}
+[11.542335] (-) TimerEvent: {}
+[11.642665] (-) TimerEvent: {}
+[11.742971] (-) TimerEvent: {}
+[11.843283] (-) TimerEvent: {}
+[11.943634] (-) TimerEvent: {}
+[12.044156] (-) TimerEvent: {}
+[12.144954] (-) TimerEvent: {}
+[12.245324] (-) TimerEvent: {}
+[12.345805] (-) TimerEvent: {}
+[12.446161] (-) TimerEvent: {}
+[12.546525] (-) TimerEvent: {}
+[12.647000] (-) TimerEvent: {}
+[12.747366] (-) TimerEvent: {}
+[12.847734] (-) TimerEvent: {}
+[12.935639] (tb3_wall) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tb3_wall_node\x1b[0m\n'}
+[12.947860] (-) TimerEvent: {}
+[13.048225] (-) TimerEvent: {}
+[13.148642] (-) TimerEvent: {}
+[13.249072] (-) TimerEvent: {}
+[13.349522] (-) TimerEvent: {}
+[13.449913] (-) TimerEvent: {}
+[13.550367] (-) TimerEvent: {}
+[13.650800] (-) TimerEvent: {}
+[13.751131] (-) TimerEvent: {}
+[13.851382] (tb3_wall) StdoutLine: {'line': b'[100%] Built target tb3_wall_node\n'}
+[13.851731] (-) TimerEvent: {}
+[13.869688] (tb3_wall) CommandEnded: {'returncode': 0}
+[13.870596] (tb3_wall) JobProgress: {'identifier': 'tb3_wall', 'progress': 'install'}
+[13.886779] (tb3_wall) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_wall'], 'cwd': '/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_wall', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'OLDPWD': '/home/david/Documents/04_MOD/Labor3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '2119', 'SYSTEMD_EXEC_PID': '2420', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install:/home/david/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '8:16838', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XILINX_VIVADO': '/tools/Xilinx/2025.1/Vivado', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/david/.local/bin:/tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/share/gnome-shell/extensions/ddterm@amezin.github.com/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2025b/bin', 'SESSION_MANAGER': 'local/david-desktop:@/tmp/.ICE-unix/2370,unix/david-desktop:/tmp/.ICE-unix/2370', 'INVOCATION_ID': 'ed8d8d5b993e4d0288af89bb92e448cb', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EVHVH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_wall', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/david/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/david/turtlebot3_ws/build/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/david/turtlebot3_ws/build/turtlebot3_example:/home/david/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/david/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall:/home/david/turtlebot3_ws/install/turtlebot3:/home/david/turtlebot3_ws/install/turtlebot3_simulations:/home/david/turtlebot3_ws/install/turtlebot3_bringup:/home/david/turtlebot3_ws/install/turtlebot3_node:/home/david/turtlebot3_ws/install/turtlebot3_navigation2:/home/david/turtlebot3_ws/install/turtlebot3_fake_node:/home/david/turtlebot3_ws/install/turtlebot3_msgs:/home/david/turtlebot3_ws/install/turtlebot3_gazebo:/home/david/turtlebot3_ws/install/turtlebot3_description:/home/david/turtlebot3_ws/install/turtlebot3_cartographer:/home/david/turtlebot3_ws/install/dynamixel_sdk_examples:/home/david/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/david/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'XILINX_VITIS': '/tools/Xilinx/2025.1/Vitis'}), 'shell': False}
+[13.901532] (tb3_wall) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.901917] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/lib/tb3_wall/tb3_wall_node\n'}
+[13.914094] (tb3_wall) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/lib/tb3_wall/tb3_wall_node" to ""\n'}
+[13.914371] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/ament_index/resource_index/package_run_dependencies/tb3_wall\n'}
+[13.914536] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/ament_index/resource_index/parent_prefix_path/tb3_wall\n'}
+[13.915094] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/environment/ament_prefix_path.sh\n'}
+[13.915250] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/environment/ament_prefix_path.dsv\n'}
+[13.915386] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/environment/path.sh\n'}
+[13.915503] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/environment/path.dsv\n'}
+[13.915617] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/local_setup.bash\n'}
+[13.915731] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/local_setup.sh\n'}
+[13.915869] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/local_setup.zsh\n'}
+[13.915933] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/local_setup.dsv\n'}
+[13.915994] (tb3_wall) StdoutLine: {'line': b'-- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/package.dsv\n'}
+[13.916056] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/ament_index/resource_index/packages/tb3_wall\n'}
+[13.916116] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/cmake/tb3_wallConfig.cmake\n'}
+[13.916178] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/cmake/tb3_wallConfig-version.cmake\n'}
+[13.916240] (tb3_wall) StdoutLine: {'line': b'-- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/install/tb3_wall/share/tb3_wall/package.xml\n'}
+[13.918031] (tb3_wall) CommandEnded: {'returncode': 0}
+[13.936735] (tb3_wall) JobEnded: {'identifier': 'tb3_wall', 'rc': 0}
+[13.937603] (-) EventReactorShutdown: {}

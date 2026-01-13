@@ -1,0 +1,10 @@
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/uninstall.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/tb3_control_uninstall.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/tb3_control_node.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/test.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/edit_cache.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/rebuild_cache.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/list_install_components.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/install.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/install/local.dir
+/home/david/Documents/04_MOD/Labor3/ros2_ws/build/tb3_control/CMakeFiles/install/strip.dir

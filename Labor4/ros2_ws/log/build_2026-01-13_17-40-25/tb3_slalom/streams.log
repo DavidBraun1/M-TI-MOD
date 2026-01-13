@@ -1,0 +1,16 @@
+[0.026s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[3.368s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kscan_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.368s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_dist[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_dist[m[K’?
+[3.368s]    48 |         [01;31m[Kmin_dist[m[K = get_min_distance(msg, 0, 180, total)         // 360° herum
+[3.368s]       |         [01;31m[K^~~~~~~~[m[K
+[3.368s]       |         [32m[Kfront_dist[m[K
+[3.376s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[3.377s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:82:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_dist[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_dist[m[K’?
+[3.377s]    82 |         if(front_dist > [01;31m[Kmin_dist[m[K){
+[3.377s]       |                         [01;31m[K^~~~~~~~[m[K
+[3.377s]       |                         [32m[Kfront_dist[m[K
+[7.523s] gmake[2]: *** [CMakeFiles/tb3_slalom_node.dir/build.make:76: CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o] Error 1
+[7.524s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_slalom_node.dir/all] Error 2
+[7.524s] gmake: *** [Makefile:146: all] Error 2
+[7.528s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12

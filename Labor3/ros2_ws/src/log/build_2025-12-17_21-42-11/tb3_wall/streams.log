@@ -1,0 +1,40 @@
+[0.063s] Invoking command in '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall -- -j12 -l12
+[0.178s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.175s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.286s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.321s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.685s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.691s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.000s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.293s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.428s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.519s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.076s] -- Configuring done (2.9s)
+[3.136s] -- Generating done (0.0s)
+[3.146s] -- Build files have been written to: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall
+[3.382s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_wall_node.dir/src/tb3_wall.cpp.o[0m
+[46.834s] [100%] [32m[1mLinking CXX executable tb3_wall_node[0m
+[49.221s] [100%] Built target tb3_wall_node
+[49.270s] Invoked command in '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall -- -j12 -l12
+[49.327s] Invoking command in '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall
+[49.364s] -- Install configuration: ""
+[49.365s] -- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/lib/tb3_wall/tb3_wall_node
+[49.404s] -- Set non-toolchain portion of runtime path of "/home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/lib/tb3_wall/tb3_wall_node" to ""
+[49.404s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/ament_index/resource_index/package_run_dependencies/tb3_wall
+[49.404s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/ament_index/resource_index/parent_prefix_path/tb3_wall
+[49.404s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/ament_prefix_path.sh
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/ament_prefix_path.dsv
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/path.sh
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/environment/path.dsv
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.bash
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.sh
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.zsh
+[49.405s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/local_setup.dsv
+[49.406s] -- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/package.dsv
+[49.406s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/ament_index/resource_index/packages/tb3_wall
+[49.406s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/cmake/tb3_wallConfig.cmake
+[49.406s] -- Up-to-date: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/cmake/tb3_wallConfig-version.cmake
+[49.406s] -- Installing: /home/david/Documents/04_MOD/Labor3/ros2_ws/src/install/tb3_wall/share/tb3_wall/package.xml
+[49.411s] Invoked command in '/home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor3/ros2_ws/src/build/tb3_wall

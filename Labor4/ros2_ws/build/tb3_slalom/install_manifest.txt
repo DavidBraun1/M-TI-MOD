@@ -1,0 +1,16 @@
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/package_run_dependencies/tb3_slalom
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/parent_prefix_path/tb3_slalom
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.sh
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.dsv
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/path.sh
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/path.dsv
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.bash
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.sh
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.zsh
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.dsv
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.dsv
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/packages/tb3_slalom
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig.cmake
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig-version.cmake
+/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.xml

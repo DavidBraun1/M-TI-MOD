@@ -1,0 +1,16 @@
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/lib/tutorial_node/my_node
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/ament_index/resource_index/package_run_dependencies/tutorial_node
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/ament_index/resource_index/parent_prefix_path/tutorial_node
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/environment/ament_prefix_path.sh
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/environment/ament_prefix_path.dsv
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/environment/path.sh
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/environment/path.dsv
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/local_setup.bash
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/local_setup.sh
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/local_setup.zsh
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/local_setup.dsv
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/package.dsv
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/ament_index/resource_index/packages/tutorial_node
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/cmake/tutorial_nodeConfig.cmake
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/cmake/tutorial_nodeConfig-version.cmake
+/home/david/Documents/04_MOD/Labor3/ros2_ws/install/tutorial_node/share/tutorial_node/package.xml

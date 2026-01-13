@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="my_cylinder">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>  <!-- 5 cm -->
+            <length>0.2</length>   <!-- 20 cm -->
+          </cylinder>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.2</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
