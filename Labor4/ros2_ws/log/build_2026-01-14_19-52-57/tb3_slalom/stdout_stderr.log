@@ -1,0 +1,15 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:95:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kmin_dist[m[K’
+   95 |             if [01;31m[Kmin_dist[m[K = 999.9{
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   98 |             [01;31m[Kelse[m[K{
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:165:17:[m[K [01;31m[Kerror: [m[K‘[01m[KCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+  165 |                 [01;31m[KCLCPP_INFO[m[K(this->get_logger(), "State 4 erreicht");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+      |                 [32m[KRCLCPP_INFO[m[K
+gmake[2]: *** [CMakeFiles/tb3_slalom_node.dir/build.make:76: CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_slalom_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

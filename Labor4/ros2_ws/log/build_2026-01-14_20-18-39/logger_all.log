@@ -1,0 +1,262 @@
+[0.227s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.227s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cc7cdc572f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cc7cdc57170>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cc7cdc57170>>)
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.288s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/david/Documents/04_MOD/Labor4/ros2_ws'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_models/cylinder_5cm/models/my_cylinder) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slalom) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_slalom' with type 'ros.ament_cmake' and name 'tb3_slalom'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_wall) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_wall' with type 'ros.ament_cmake' and name 'tb3_wall'
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/david/Documents/04_MOD/Labor4/ros2_ws/install
+[0.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/david/turtlebot3_ws/install
+[0.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/jazzy
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_slalom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_slalom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom', 'merge_install': False, 'path': '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tb3_wall' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_wall' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall', 'merge_install': False, 'path': '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_wall', 'symlink_install': False, 'test_result_base': None}
+[0.426s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom'
+[0.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_wall' with build type 'ament_cmake'
+[0.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_wall'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall -- -j12 -l12
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall -- -j12 -l12
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall
+[0.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_wall)
+[0.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_wall
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall' for CMake module files
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall' for CMake config files
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_wall', 'cmake_prefix_path')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/hook/cmake_prefix_path.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/hook/cmake_prefix_path.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/lib'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/lib/pkgconfig/tb3_wall.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/lib/python3.12/site-packages'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.bash'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.zsh'
+[0.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/colcon-core/packages/tb3_wall)
+[0.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_wall)
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall' for CMake module files
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall' for CMake config files
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_wall', 'cmake_prefix_path')
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/hook/cmake_prefix_path.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/hook/cmake_prefix_path.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/hook/cmake_prefix_path.sh'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/lib'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/bin'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/lib/pkgconfig/tb3_wall.pc'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/lib/python3.12/site-packages'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/bin'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.sh'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.bash'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/tb3_wall/package.zsh'
+[0.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_wall/share/colcon-core/packages/tb3_wall)
+[15.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[15.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom
+[15.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_slalom)
+[15.698s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom' for CMake module files
+[15.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom
+[15.699s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom' for CMake config files
+[15.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_slalom', 'cmake_prefix_path')
+[15.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/hook/cmake_prefix_path.ps1'
+[15.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/hook/cmake_prefix_path.dsv'
+[15.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/hook/cmake_prefix_path.sh'
+[15.702s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib'
+[15.702s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/bin'
+[15.703s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/pkgconfig/tb3_slalom.pc'
+[15.703s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/python3.12/site-packages'
+[15.703s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/bin'
+[15.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.ps1'
+[15.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.dsv'
+[15.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.sh'
+[15.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.bash'
+[15.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.zsh'
+[15.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/colcon-core/packages/tb3_slalom)
+[15.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_slalom)
+[15.706s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom' for CMake module files
+[15.707s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom' for CMake config files
+[15.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_slalom', 'cmake_prefix_path')
+[15.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/hook/cmake_prefix_path.ps1'
+[15.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/hook/cmake_prefix_path.dsv'
+[15.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/hook/cmake_prefix_path.sh'
+[15.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib'
+[15.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/bin'
+[15.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/pkgconfig/tb3_slalom.pc'
+[15.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/python3.12/site-packages'
+[15.709s] Level 1:colcon.colcon_core.environment:checking '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/bin'
+[15.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.ps1'
+[15.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.dsv'
+[15.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.sh'
+[15.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.bash'
+[15.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.zsh'
+[15.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/colcon-core/packages/tb3_slalom)
+[15.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.712s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.725s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.725s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.725s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.741s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/local_setup.ps1'
+[15.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/_local_setup_util_ps1.py'
+[15.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/setup.ps1'
+[15.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/local_setup.sh'
+[15.747s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/_local_setup_util_sh.py'
+[15.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/setup.sh'
+[15.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/local_setup.bash'
+[15.751s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/setup.bash'
+[15.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/local_setup.zsh'
+[15.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/Documents/04_MOD/Labor4/ros2_ws/install/setup.zsh'

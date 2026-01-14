@@ -1,0 +1,22 @@
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:111:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time_[m[K’ was not declared in this scope
+  111 |                 double elapsed = (this->now() - [01;31m[Kstart_time_[m[K).seconds();
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:113:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_half_circle[m[K’ was not declared in this scope
+  113 |                 if(elapsed < [01;31m[Kt_half_circle[m[K){
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:114:42:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_speed[m[K’ was not declared in this scope
+  114 |                     cmd.twist.linear.x = [01;31m[Klinear_speed[m[K;
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:115:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_speed[m[K’ was not declared in this scope
+  115 |                     cmd.twist.angular.z = [01;31m[Kangular_speed[m[K;
+      |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:125:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+  125 |             case [01;31m[K3[m[K:
+      |                  [01;31m[K^[m[K
+[01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:111:24:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble elapsed[m[K’
+  111 |                 double [01;36m[Kelapsed[m[K = (this->now() - start_time_).seconds();
+      |                        [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tb3_slalom_node.dir/build.make:76: CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_slalom_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

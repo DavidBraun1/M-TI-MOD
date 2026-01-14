@@ -1,0 +1,17 @@
+[0.028s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[0.134s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[3.245s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[3.245s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:95:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kmin_dist[m[K’
+[3.245s]    95 |             if [01;31m[Kmin_dist[m[K = 999.9{
+[3.245s]       |                [01;31m[K^~~~~~~~[m[K
+[3.246s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[3.246s]    98 |             [01;31m[Kelse[m[K{
+[3.246s]       |             [01;31m[K^~~~[m[K
+[3.256s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:165:17:[m[K [01;31m[Kerror: [m[K‘[01m[KCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[3.256s]   165 |                 [01;31m[KCLCPP_INFO[m[K(this->get_logger(), "State 4 erreicht");
+[3.256s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[3.256s]       |                 [32m[KRCLCPP_INFO[m[K
+[7.371s] gmake[2]: *** [CMakeFiles/tb3_slalom_node.dir/build.make:76: CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o] Error 1
+[7.371s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_slalom_node.dir/all] Error 2
+[7.371s] gmake: *** [Makefile:146: all] Error 2
+[7.376s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tb3_slalom_node[0m
+[100%] Built target tb3_slalom_node
+-- Install configuration: ""
+-- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node
+-- Set non-toolchain portion of runtime path of "/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node" to ""
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/package_run_dependencies/tb3_slalom
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/parent_prefix_path/tb3_slalom
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.sh
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/path.sh
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/path.dsv
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.bash
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.sh
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.zsh
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.dsv
+-- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.dsv
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/packages/tb3_slalom
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig.cmake
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig-version.cmake
+-- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.xml

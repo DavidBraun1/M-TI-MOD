@@ -1,0 +1,25 @@
+[0.027s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[14.053s] [100%] [32m[1mLinking CXX executable tb3_slalom_node[0m
+[15.002s] [100%] Built target tb3_slalom_node
+[15.022s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[15.024s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom
+[15.037s] -- Install configuration: ""
+[15.038s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node
+[15.051s] -- Set non-toolchain portion of runtime path of "/home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node" to ""
+[15.051s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/package_run_dependencies/tb3_slalom
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/parent_prefix_path/tb3_slalom
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.sh
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.dsv
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/path.sh
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/environment/path.dsv
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.bash
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.sh
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.zsh
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/local_setup.dsv
+[15.052s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.dsv
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/ament_index/resource_index/packages/tb3_slalom
+[15.052s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig.cmake
+[15.053s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig-version.cmake
+[15.053s] -- Up-to-date: /home/david/Documents/04_MOD/Labor4/ros2_ws/install/tb3_slalom/share/tb3_slalom/package.xml
+[15.055s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom

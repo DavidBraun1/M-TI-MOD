@@ -1,0 +1,25 @@
+[0.025s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[3.331s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:[m[K In member function ‘[01m[Kvoid MOD_TB3::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[3.331s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:111:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time_[m[K’ was not declared in this scope
+[3.331s]   111 |                 double elapsed = (this->now() - [01;31m[Kstart_time_[m[K).seconds();
+[3.331s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[3.341s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:113:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_half_circle[m[K’ was not declared in this scope
+[3.342s]   113 |                 if(elapsed < [01;31m[Kt_half_circle[m[K){
+[3.342s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[3.353s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:114:42:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_speed[m[K’ was not declared in this scope
+[3.354s]   114 |                     cmd.twist.linear.x = [01;31m[Klinear_speed[m[K;
+[3.354s]       |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[3.366s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:115:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_speed[m[K’ was not declared in this scope
+[3.366s]   115 |                     cmd.twist.angular.z = [01;31m[Kangular_speed[m[K;
+[3.366s]       |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[3.366s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:125:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.366s]   125 |             case [01;31m[K3[m[K:
+[3.366s]       |                  [01;31m[K^[m[K
+[3.366s] [01m[K/home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom/src/tb3_slalom.cpp:111:24:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kdouble elapsed[m[K’
+[3.366s]   111 |                 double [01;36m[Kelapsed[m[K = (this->now() - start_time_).seconds();
+[3.366s]       |                        [01;36m[K^~~~~~~[m[K
+[7.618s] gmake[2]: *** [CMakeFiles/tb3_slalom_node.dir/build.make:76: CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o] Error 1
+[7.618s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_slalom_node.dir/all] Error 2
+[7.618s] gmake: *** [Makefile:146: all] Error 2
+[7.622s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/build/tb3_slalom -- -j12 -l12
