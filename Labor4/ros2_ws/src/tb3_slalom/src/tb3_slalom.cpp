@@ -81,6 +81,17 @@ private:
         geometry_msgs::msg::TwistStamped cmd;
         cmd.header.stamp = this->now();
 
+        if (test < 50){
+            cmd.twist.linear.x = 0.2;
+            cmd.twist.angular.z = 0.0;
+            test += 1;
+        }
+        else{
+            cmd.twist.linear.x = 0.2;
+            cmd.twist.angular.z = 1.1;
+        }
+
+/*
         // Abstand zur Stange vor dem Slalom
         const double PILLER_DIST = 0.3;
 
@@ -217,7 +228,7 @@ private:
                 RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 5000, "Ende");
             }
         }
-
+    */
         cmd_vel_pub_->publish(cmd);
     }
 
@@ -236,8 +247,9 @@ private:
     double radius;
     bool init = false;
     double start_yaw = 0.0;
-    int dir = -1; // Negative = rechts drehen
+    double dir = -1; // Negative = rechts drehen
     int slalom_i = 0;
+    int test = 0;
     };
 
 int main(int argc, char **argv)

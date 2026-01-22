@@ -5,8 +5,8 @@ clear
 x1_ = [0 0 0]';
 x2_ = [1 0 0]';
 x3_ = [2 0 0]';
-x4_ = [0 1]';       %geschätzt
-x5_ = [2 1]';       %geschätzt
+x4_ = [0 -1]';       %geschätzt
+x5_ = [2 -1]';       %geschätzt
 
 %Bewegungen
 x12_ = [1 0 0]';
@@ -33,47 +33,60 @@ Sigma = diag([1e-6 1e-6 1e-6 1 1 1 1 1 1 1e-2 1e-2 1e-2 1e-2 1e-2 1e-2]);
 
 Sigma_inv = inv(Sigma);
 
-%-----------c-----------
-%Winkel zwischen Roboter und Merkmalen
-a14 = atan2(x4_(2) - x1_(2), x4_(1) - x1_(1));
-a15 = atan2(x5_(2) - x1_(2), x5_(1) - x1_(1));
-a24 = atan2(x4_(2) - x2_(2), x4_(1) - x2_(1));
-a25 = atan2(x5_(2) - x2_(2), x5_(1) - x2_(1));
-a34 = atan2(x4_(2) - x3_(2), x4_(1) - x3_(1));
-a35 = atan2(x5_(2) - x3_(2), x5_(1) - x3_(1));
+e = 1;
+i = 0;
 
-%Sinus und Cosinus ausrechnen
-c14 = cos(a14);
-s14 = sin(a14);
-c15 = cos(a15);
-s15 = sin(a15);
-c24 = cos(a24);
-s24 = sin(a24);
-c25 = cos(a25);
-s25 = sin(a25);
-c34 = cos(a34);
-s34 = sin(a34);
-c35 = cos(a35);
-s35 = sin(a35);
-
-%Zeilen ist z_ und Spalten ist x_
-%   |   x1_   |   x2_     |   x3_     |  x4_  |  x5_
-H = [...
-    1   0   0   0   0   0   0   0   0   0   0   0   0   %x1_: x
-    0   1   0   0   0   0   0   0   0   0   0   0   0   %x1_: y
-    0   0   1   0   0   0   0   0   0   0   0   0   0   %x1_: theta
-   -1   0   0   1   0   0   0   0   0   0   0   0   0   %x12_: x
-    0  -1   0   0   1   0   0   0   0   0   0   0   0   %x12_: y
-    0   0  -1   0   0   1   0   0   0   0   0   0   0   %x12_: theta
-    0   0   0  -1   0   0   1   0   0   0   0   0   0   %x23_: x
-    0   0   0   0  -1   0   0   1   0   0   0   0   0   %x23_: y
-    0   0   0   0   0  -1   0   0   1   0   0   0   0   %x23_: theta
-  -c14 -s14 0   0   0   0   0   0   0  c14 s14  0   0   %d14
-  -c15 -s15 0   0   0   0   0   0   0   0   0  c15 s15  %d15
-    0   0   0 -c24 -s24 0   0   0   0  c24 s24  0   0   %d24
-    0   0   0 -c25 -s25 0   0   0   0   0   0  c25 s25  %d25
-    0   0   0   0   0   0 -c34 -s34 0  c34 s34  0   0   %d34
-    0   0   0   0   0   0 -c35 -s35 0   0   0  c35 s35  %d35
-    ];
-
-%-----------d-----------
+while e > 1e-5
+    %-----------c-----------
+    %Winkel zwischen Roboter und Merkmalen
+    a14 = atan2(x4_(2) - x1_(2), x4_(1) - x1_(1));
+    a15 = atan2(x5_(2) - x1_(2), x5_(1) - x1_(1));
+    a24 = atan2(x4_(2) - x2_(2), x4_(1) - x2_(1));
+    a25 = atan2(x5_(2) - x2_(2), x5_(1) - x2_(1));
+    a34 = atan2(x4_(2) - x3_(2), x4_(1) - x3_(1));
+    a35 = atan2(x5_(2) - x3_(2), x5_(1) - x3_(1));
+    
+    %Sinus und Cosinus ausrechnen
+    c14 = cos(a14);
+    s14 = sin(a14);
+    c15 = cos(a15);
+    s15 = sin(a15);
+    c24 = cos(a24);
+    s24 = sin(a24);
+    c25 = cos(a25);
+    s25 = sin(a25);
+    c34 = cos(a34);
+    s34 = sin(a34);
+    c35 = cos(a35);
+    s35 = sin(a35);
+    
+    %Zeilen ist z_ und Spalten ist x_
+    %   |   x1_   |   x2_     |   x3_     |  x4_  |  x5_
+    H = [...
+        1   0   0   0   0   0   0   0   0   0   0   0   0   %x1_: x
+        0   1   0   0   0   0   0   0   0   0   0   0   0   %x1_: y
+        0   0   1   0   0   0   0   0   0   0   0   0   0   %x1_: theta
+       -1   0   0   1   0   0   0   0   0   0   0   0   0   %x12_: x
+        0  -1   0   0   1   0   0   0   0   0   0   0   0   %x12_: y
+        0   0  -1   0   0   1   0   0   0   0   0   0   0   %x12_: theta
+        0   0   0  -1   0   0   1   0   0   0   0   0   0   %x23_: x
+        0   0   0   0  -1   0   0   1   0   0   0   0   0   %x23_: y
+        0   0   0   0   0  -1   0   0   1   0   0   0   0   %x23_: theta
+      -c14 -s14 0   0   0   0   0   0   0  c14 s14  0   0   %d14
+      -c15 -s15 0   0   0   0   0   0   0   0   0  c15 s15  %d15
+        0   0   0 -c24 -s24 0   0   0   0  c24 s24  0   0   %d24
+        0   0   0 -c25 -s25 0   0   0   0   0   0  c25 s25  %d25
+        0   0   0   0   0   0 -c34 -s34 0  c34 s34  0   0   %d34
+        0   0   0   0   0   0 -c35 -s35 0   0   0  c35 s35  %d35
+        ];
+    
+    %-----------d-----------
+    %Least Square
+    x_neu = (H'*Sigma_inv*H)\(H'*Sigma_inv*z_);
+    
+    %Abweichung
+    e = sqrt((x_-x_neu)' * (x_-x_neu));
+    
+    x_ = x_neu;
+    i = i+1;
+end

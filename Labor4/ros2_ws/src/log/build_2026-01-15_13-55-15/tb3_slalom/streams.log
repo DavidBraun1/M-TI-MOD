@@ -1,0 +1,57 @@
+[0.018s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom -DCMAKE_INSTALL_PREFIX=/home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom
+[0.185s] -- The C compiler identification is GNU 13.3.0
+[0.291s] -- The CXX compiler identification is GNU 13.3.0
+[0.325s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.464s] -- Detecting C compile features
+[0.465s] -- Detecting C compile features - done
+[0.477s] -- Detecting CXX compiler ABI info
+[0.607s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.822s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.010s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.121s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.152s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.357s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.366s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.527s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.556s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.586s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.702s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.751s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.789s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.916s] -- Configuring done (1.9s)
+[1.930s] -- Generating done (0.0s)
+[1.934s] -- Build files have been written to: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom
+[1.951s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/david/Documents/04_MOD/Labor4/ros2_ws/src/tb3_slalom -DCMAKE_INSTALL_PREFIX=/home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom
+[1.952s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom -- -j12 -l12
+[2.022s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_slalom_node.dir/src/tb3_slalom.cpp.o[0m
+[11.798s] [100%] [32m[1mLinking CXX executable tb3_slalom_node[0m
+[12.438s] [100%] Built target tb3_slalom_node
+[12.456s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom -- -j12 -l12
+[12.458s] Invoking command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom
+[12.468s] -- Install configuration: ""
+[12.468s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node
+[12.477s] -- Set non-toolchain portion of runtime path of "/home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/lib/tb3_slalom/tb3_slalom_node" to ""
+[12.477s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/ament_index/resource_index/package_run_dependencies/tb3_slalom
+[12.477s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/ament_index/resource_index/parent_prefix_path/tb3_slalom
+[12.477s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.sh
+[12.477s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/environment/ament_prefix_path.dsv
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/environment/path.sh
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/environment/path.dsv
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/local_setup.bash
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/local_setup.sh
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/local_setup.zsh
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/local_setup.dsv
+[12.478s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/package.dsv
+[12.479s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/ament_index/resource_index/packages/tb3_slalom
+[12.479s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig.cmake
+[12.479s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/cmake/tb3_slalomConfig-version.cmake
+[12.479s] -- Installing: /home/david/Documents/04_MOD/Labor4/ros2_ws/src/install/tb3_slalom/share/tb3_slalom/package.xml
+[12.482s] Invoked command in '/home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/turtlebot3_ws/install/turtlebot3_teleop:/home/david/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/Documents/04_MOD/Labor4/ros2_ws/src/build/tb3_slalom
